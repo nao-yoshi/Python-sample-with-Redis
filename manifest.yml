@@ -1,0 +1,7 @@
+---
+applications:
+- name: simpleapp2
+  memory: 128M
+  host: yos22
+  domain: cfapps.io
+  buildpack: https://github.com/cloudfoundry/buildpack-python.git
